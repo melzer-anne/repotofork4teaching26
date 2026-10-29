@@ -5,4 +5,19 @@
 # nothing more ... but change a bit the content of this renamed file, to show some 
 # commitment :-) 
 
-print("Hello World!")
+print("✨ Welcome to my Python program! ✨")
+
+name = input("Wie heißt du? ")
+mood = input("Wie geht's dir heute? ")
+
+print()
+print(f"Hey {name}! 👋")
+
+if mood.lower() == "gut":
+    print("Das freut mich! Mach weiter so! 🚀")
+elif mood.lower() == "schlecht":
+    print("Kopf hoch! Morgen ist ein neuer Tag. 💛")
+else:
+    print(f"Danke, dass du deinen Tag als '{mood}' beschreibst!")
+
+print("\n🎉 Thanks for testing my program!")
